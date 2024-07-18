@@ -34,7 +34,7 @@ SECRET_KEY = 'django-insecure-6wb#ip0z2!i%o*pqxqwu4wmwrn)l_y!dnzo_k=#f*@%ttv2e!o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-maximilianek-drfapi-sh03hytaojx.ws.codeinstitute-ide.net' ]
+ALLOWED_HOSTS = ['8000-maximilianek-drfapi-sh03hytaojx.ws.codeinstitute-ide.net', '8000-maximilianek-drfapi-lxhf0g1tk6c.ws.codeinstitute-ide.net' ]
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-maximilianek-drfapi-sh03hytaojx.ws.codeinstitute-ide.net']
 
@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'rest_framework',
 
     'profiles',
+    'posts',
 
 ]
 
